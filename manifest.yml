@@ -1,0 +1,8 @@
+---
+applications:
+- name: static-dummy
+  host: dummy
+  memory: 64M
+  stack: cflinuxfs2
+  path: .
+  buildpack: https://github.com/cloudfoundry-incubator/staticfile-buildpack#v1.3.1
